@@ -1,11 +1,5 @@
-Will Lago
 
-COS 460
-
-12/2/25
-
-
-# Project 4 - Game Server+
+# Multiplayer Game Server
 
 Simple 2D grid-based game server. Handles connections/disconnections, login, movement, map display/updates, player-to-player messages, and info requests such as INFO and LEADERBOARD.
 Also now includes a working ACTION command with two action types: CLASS (changes class when in spawn) and ATTACK (attack or heal another player).
@@ -35,7 +29,7 @@ The client can then be connected to via a terminal network utility like telnet o
 
 ---
 
-# Questions
+# FAQ
 
 * What is the general outline of the client-server protocol; text, binary, TCP, UDP?
 
